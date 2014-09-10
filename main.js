@@ -7,7 +7,7 @@ newContent.setAttribute('class', 'content');
 
 var text = $content.textContent;
 var n = 0.7;
-var trans = 'transition: ' + n + 's all cubic-bezier(0.550, 0.085, 0.680, 0.530); ';
+var trans = 'transition: ' + n + 's all ease-out; ';
 var $input = document.querySelector('input');
 var myColor = getColor($input.value);
 var $label = document.querySelector('label.picker')
