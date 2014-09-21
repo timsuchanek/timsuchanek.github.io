@@ -1,78 +1,26 @@
 body {
-  overflow: hidden;
-  padding: 1rem;
+  font-family: "Helvetica Neue";
+}
+
+.wrapper {
   margin: 0 auto;
-  font-family: 'Open Sans';
-  font-size: 20px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: #000;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.content {
-  z-index: 3;
-  position: absolute;
-  padding: 30px;
-
+h1 {
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin-bottom: 100px
 }
 
-
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 0px;
-  z-index: 20;
-}
-
-input {
-  font-size: 24px;
-  background: #000;
-  color: #333;
-  border: none;
-  width: 120px
-  height: 50px;
-  z-index: 0;
-  margin-bottom: -50px;
-}
-
-.picker {
-  background: #fff;
-  width: 100px;
-  height: 100px;
+a {
+  color: black;
   display: block;
-  z-index: 1;
-  border-top-left-radius: 100px;
-}
-
-
-@media 
-(-webkit-min-device-pixel-ratio: 1.25), 
-(min-resolution: 120dpi){ 
-  .picker {
-    width: 200px;
-    height: 200px;
-    border-top-left-radius: 200px;
-  }
-}
-
-@media (min-width: 481px) {
-  body {
-    font-size: 50px;  
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 80px;  
-  }
-}
-
-
-@media (min-width: 2000px) {
-  body {
-    font-size: 120px;  
-  }
+  line-height: 4;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none
 }
