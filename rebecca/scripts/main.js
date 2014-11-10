@@ -1,9 +1,5 @@
 var intro = document.querySelector('.intro');
 
-window.addEventListener('resize', function() {
-  setIntroHeight()
-});
-
 function setIntroHeight() {
   intro.style.height = window.innerHeight + 'px';
 }
