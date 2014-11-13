@@ -33,6 +33,7 @@
                 var len = response.documents.length;
                 var newHTML = '<ul>';
                 // $( "p" ).text(JSON.stringify(response.documents));
+                console.log(response.documents);
                 response.documents.forEach(function(article) {
                     newHTML += '<li><strong class="cat">' + article.category + ': </strong>';
                     newHTML += '<span class="title">' + article.title + '</span>';
